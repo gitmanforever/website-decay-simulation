@@ -46,7 +46,7 @@ The core mechanic: progressive visual decay over time. The page starts clean and
 ### Interactive Elements
 - **Click to Corrupt**: Every click accelerates entropy decay
 - **Scroll to Decay**: Scrolling increases visual corruption
-- **Floating Memories**: Ghost text fragments float up from the void—fragments of the old web
+- **Floating Memories**: Ghost text fragments float up from the void: fragments of the old web
 - **Emotional Reactions**: UI responds to mouse speed, typing, and idle time
 - **Recursive Nesting**: Spawn infinite layers of corrupted versions
 - **Reset Button**: Start the cycle over (entropy persists in localStorage)
