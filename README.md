@@ -198,7 +198,7 @@ MIT License - feel free to use this project for your own explorations of digital
 
 ## 🙏 Credits
 
-Built with [v0.app](https://v0.app) - Vercel's AI-powered design tool.
+Created By Shreyash Srivastva
 
 Inspired by concepts of digital entropy, cyberpunk aesthetics, and the inevitable decay of all systems.
 
