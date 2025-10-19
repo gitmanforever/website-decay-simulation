@@ -3,7 +3,6 @@
 A haunting, interactive web experience that explores digital entropy and the inevitable decay of the internet. This project transforms a clean, minimal website into a progressively corrupted, glitchy, and chaotic digital landscape—alive and dying simultaneously.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/777ryangoslings-projects/v0-website-decay-simulation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/hLI0z382StE)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://react.dev)
 
@@ -67,25 +66,25 @@ The core mechanic: progressive visual decay over time. The page starts clean and
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/777ryangoslings/website-decay-simulation.git
    cd website-decay-simulation
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. **Open in browser**
-   \`\`\`
+   ```
    http://localhost:3000
-   \`\`\`
+   ```
 
 ### Deployment
 
@@ -94,14 +93,14 @@ Deploy to Vercel with one click:
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F777ryangoslings%2Fwebsite-decay-simulation)
 
 Or deploy manually:
-\`\`\`bash
+```bash
 npm run build
 npm run start
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 website-decay-simulation/
 ├── app/
 │   ├── layout.tsx           # Root layout with fonts
@@ -116,7 +115,7 @@ website-decay-simulation/
 │   └── recursive-windows.tsx # Nested corrupted versions
 ├── public/                  # Static assets
 └── README.md               # This file
-\`\`\`
+```
 
 ## 🎮 How to Interact
 
@@ -167,17 +166,17 @@ The decay is divided into stages:
 
 ### Adjust Decay Speed
 Edit `components/entropy-content.tsx`:
-\`\`\`tsx
+```tsx
 const ENTROPY_INCREMENT = 0.001; // Increase for faster decay
-\`\`\`
+```
 
 ### Change Colors
 Edit `app/globals.css` and modify the glitch color variables:
-\`\`\`css
+```css
 --glitch-red: #FF0000;
 --glitch-cyan: #00FFFF;
 --glitch-magenta: #FF00FF;
-\`\`\`
+```
 
 ### Modify Effects
 Each effect is in its own component:
@@ -206,7 +205,6 @@ Inspired by concepts of digital entropy, cyberpunk aesthetics, and the inevitabl
 ## 🔗 Links
 
 - **Live Demo**: [https://website-decay-simulation.vercel.app](https://website-decay-simulation.vercel.app)
-- **v0 Project**: [https://v0.app/chat/projects/hLI0z382StE](https://v0.app/chat/projects/hLI0z382StE)
 - **GitHub**: [https://github.com/777ryangoslings/website-decay-simulation](https://github.com/777ryangoslings/website-decay-simulation)
 
 ---
