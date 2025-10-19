@@ -9,7 +9,7 @@ interface EntropyContentProps {
 }
 
 export default function EntropyContent({ entropy, mouseSpeed = 0, isTyping = false }: EntropyContentProps) {
-  const [glitchText, setGlitchText] = useState("THE INTERNET")
+  const [glitchText, setGlitchText] = useState("THE   INTERNET")
   const [randomGlitches, setRandomGlitches] = useState<number[]>([])
 
   useEffect(() => {
