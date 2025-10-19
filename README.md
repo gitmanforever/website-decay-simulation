@@ -11,7 +11,7 @@ A haunting, interactive web experience that explores digital entropy and the ine
 This project explores four interconnected themes of digital decay:
 
 ### 1. **The Internet's Final Page**
-The website experiences progressive DOM corruption. Every interaction—clicks, scrolls, typing—accelerates the decay. The page remembers its destruction between visits, creating a persistent sense of inevitable collapse.
+The website experiences progressive DOM corruption. Every interaction clicks, scrolls and typing accelerates the decay. The page remembers its destruction between visits, creating a persistent sense of inevitable collapse.
 
 ### 2. **The Web That Feels**
 The interface reacts emotionally to user behavior:
